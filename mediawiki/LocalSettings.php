@@ -201,7 +201,7 @@ $wgVisualEditorAvailableNamespaces = array(
 	NS_TESTES => true
 );
 
-# Semantic Wiki
+
 wfLoadExtension( 'SemanticMediaWiki' );
 enableSemantics( 'wikifavelas.com.br' );
 
