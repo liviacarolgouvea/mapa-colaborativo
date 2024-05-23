@@ -16,12 +16,13 @@
     "require": {
         "mediawiki/bootstrap": "~4.0",
         "mediawiki/chameleon-skin": "~4",
+        "mediawiki/semantic-media-wiki": "^4.1",
         "mediawiki/bootstrap-components": "^5.0",
         "starcitizenwiki/embedvideo": "^3.4",
-        "wolfgangfahl/pdfembed": "*",
+        "wolfgangfahl/pdfembed": "3.0.1",
         "mediawiki/disambiguator": "^1.4",
         "mediawiki/hit-counters": "^0.3.4",
-        "mediawiki/popups": "^1.41",
+        "mediawiki/popups": "^1.39",
         "octfx/wiki-seo": "^2.7",
         "sigbertklinke/iframe": "^0.11.0",
         "mediawiki/font-awesome": "^2.0",
@@ -36,11 +37,12 @@
         "mediawiki/random-pages": "^0.6.0",
         "mediawiki/random-selection": "^2.3",
         "mediawiki/wiki-category-tag-cloud": "^1.4",
-        "mediawiki/geo-data": "^1.41",
+		"mediawiki/geo-data": "^1.39",
         "mediawiki/head-script": "^1.1",
         "mediawiki/page-forms": "^5.7",
-        "mediawiki/labeled-section-transclusion": "^1.41",
-        "mediawiki/vector-skin": "^1.32"
+        "mediawiki/labeled-section-transclusion": "^1.39",
+        "mediawiki/vector-skin": "^1.32",
+        "mediawiki/form": "^1.39"
     },
     "repositories": [
         {
@@ -52,11 +54,11 @@
             "package": {
                 "name": "mediawiki/disambiguator",
                 "type": "mediawiki-extension",
-                "version": "1.4.0",
+                "version": "1.4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-Disambiguator",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -65,11 +67,11 @@
             "package": {
                 "name": "mediawiki/popups",
                 "type": "mediawiki-extension",
-                "version": "1.41.0",
+                "version": "1.39.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-Popups",
-                    "reference": "wmf/1.41.0-wmf.30"
+                    "reference": "wmf/1.39.0-wmf.19"
                 }
             }
         },
@@ -95,7 +97,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-CreditsSource",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -108,7 +110,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-ArticleRatings",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -121,7 +123,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-UserExport",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -134,7 +136,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-intersection",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -147,7 +149,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-timeline",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -173,7 +175,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-Kartographer",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -186,7 +188,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-JsonConfig",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -199,7 +201,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-RandomPages",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -212,7 +214,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-RandomSelection",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -225,7 +227,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-WikiCategoryTagCloud",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -234,11 +236,11 @@
             "package": {
                 "name": "mediawiki/geo-data",
                 "type": "mediawiki-extension",
-                "version": "1.41",
+                "version": "1.39",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-GeoData",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -251,7 +253,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-HeadScript",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
                 }
             }
         },
@@ -264,7 +266,20 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/wikimedia/mediawiki-extensions-LabeledSectionTransclusion",
-                    "reference": "REL1_41"
+                    "reference": "REL1_39"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "mediawiki/form",
+                "type": "mediawiki-extension",
+                "version": "1.39",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/wikimedia/mediawiki-extensions-Form",
+                    "reference": "REL1_39"
                 }
             }
         }
